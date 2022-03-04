@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/Card.php';
 class Customer
 {
     public $first_name;
@@ -64,6 +65,6 @@ class Customer
     }
 }
 
-$person = new Customer('Pippo', 'Franco', '54', '1000',);
+// $person = new Customer('Pippo', 'Franco', '54', '1000',);
 
-var_dump($person);
+// var_dump($person);
